@@ -18,4 +18,4 @@ format:
 format-check:
 	@$(info INFO | $(shell date) | Makefile → Format checking...)
 	poetry run black --check scripts
-	poetry run isort --chekc scripts
+	poetry run isort --check scripts
